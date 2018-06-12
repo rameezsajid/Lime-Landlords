@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Firebase</string>
+    <string name="title_activity_info">infoActivity</string>
+
+    <array name="properties">
+        <item>Detached</item>
+        <item>Semi-Detached</item>
+        <item>Terraced</item>
+        <item>Bungalow</item>
+        <item>Flat</item>
+    </array>
+
+    <array name="length">
+        <item>6 Months</item>
+        <item>12 Months</item>
+        <item>18 Months</item>
+        <item>2 Years+</item>
+    </array>
+
+    <array name="management">
+        <item>Privately</item>
+        <item>Estate Agent</item>
+    </array>
+    <string name="title_activity_manage">ManageActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="yield_info">Yield is a way in which landlords and investors can calculate the return of investment for their property</string>
+
+</resources>

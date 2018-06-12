@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="12dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/testing"
+        android:padding="10dp"
+        android:layout_marginTop="10dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add Property Details"
+                android:textSize="25dp"
+                android:gravity="center"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/testing"
+            android:padding="10dp"
+            android:layout_marginTop="10dp">
+
+            <EditText
+                android:id="@+id/editTextPropertyLocation3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Property Location"
+                android:layout_marginBottom="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add Property Type"
+                android:paddingLeft="10dp"/>
+
+            <Spinner
+                android:id="@+id/spinnerProperty3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:entries="@array/properties" />
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="@color/testing"
+        android:layout_marginTop="5dp">
+
+            <EditText
+                android:id="@+id/editTextPropertyRental3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Monthly Rental"
+                android:layout_marginBottom="20dp"
+                android:inputType="number"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add Tenancy Length"
+                android:paddingLeft="10dp"/>
+
+            <Spinner
+                android:id="@+id/spinnerLength3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:entries="@array/length" />
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/testing"
+        android:padding="10dp"
+        android:layout_marginTop="5dp">
+
+            <EditText
+                android:id="@+id/editTextPostCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Postcode"
+                android:inputType="text"
+                android:layout_marginBottom="20dp"/>
+
+            <EditText
+                android:id="@+id/editTextPropertyAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Property Address"
+                android:layout_marginBottom="20dp"
+                android:inputType="text"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/testing"
+            android:padding="10dp"
+            android:layout_marginTop="5dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How Is Your Property Managed"
+                android:paddingLeft="10dp"/>
+
+            <Spinner
+                android:id="@+id/spinnerManagement"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:entries="@array/management" />
+
+            <EditText
+                android:id="@+id/editTextManagementName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Property Management Name"
+                android:layout_marginBottom="20dp"
+                android:inputType="text"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/testing"
+            android:padding="10dp"
+            android:layout_marginTop="5dp">
+
+            <Button
+                android:id="@+id/addButton"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Add Property"
+                android:background="@drawable/btn_background"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</ScrollView>

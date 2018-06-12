@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingTop="50dp"
+    android:paddingRight="15dp"
+    android:paddingLeft="15dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:id="@+id/linearLayout">
+
+            <EditText
+                android:id="@+id/editTextPropertyLocation3Update"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Property Location"
+                android:layout_marginBottom="20dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add Property Type"
+                android:paddingLeft="10dp"/>
+
+            <Spinner
+                android:id="@+id/spinnerProperty3Update"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:entries="@array/properties" />
+
+            <EditText
+                android:id="@+id/editTextPropertyRental3Update"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Monthly Rental"
+                android:layout_marginBottom="20dp"
+                android:inputType="number"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Add Tenancy Length"
+                android:paddingLeft="10dp"/>
+
+            <Spinner
+                android:id="@+id/spinnerLength3Update"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:entries="@array/length" />
+
+            <EditText
+                android:id="@+id/editTextPostCodeUpdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Postcode"
+                android:inputType="text"
+                android:layout_marginBottom="20dp"/>
+
+            <EditText
+                android:id="@+id/editTextPropertyAddressUpdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Property Address"
+                android:layout_marginBottom="20dp"
+                android:inputType="text"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="How Is Your Property Managed"
+                android:paddingLeft="10dp"/>
+
+            <Spinner
+                android:id="@+id/spinnerManagementUpdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="15dp"
+                android:entries="@array/management" />
+
+            <EditText
+                android:id="@+id/editTextManagementNameUpdate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Property Management Name"
+                android:layout_marginBottom="20dp"
+                android:inputType="text"/>
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnUpdate"
+                android:text="Update"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnDelete"
+                android:text="Delete"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cancel"
+                android:id="@+id/btnClose"/>
+
+        </LinearLayout>
+
+</ScrollView>

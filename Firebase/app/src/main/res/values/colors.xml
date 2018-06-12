@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6be0d4</color>
+    <color name="colorPrimaryDark">#009688</color>
+    <color name="colorAccent">#048b7a</color>
+    <color name="red">#F15050</color>
+    <color name="red_dark">#d43c3c</color>
+    <color name="yellow">#EED45A</color>
+    <color name="yellow_dark">#d4bb46</color>
+    <color name="lime">#BCE24A</color>
+    <color name="lime_dark">#9dbf35</color>
+    <color name="green">#48D26B</color>
+    <color name="green_dark">#36b957</color>
+    <color name="blue">#48DFE1</color>
+    <color name="blue_dark">#5A9CEE</color>
+    <color name="violet">#D65AEE</color>
+    <color name="violet_dark">#b33ec9</color>
+    <color name="white">#FFFF</color>
+    <color name="black">#000</color>
+    <color name="testing">#CBF9B9</color>
+    <color name="reddish">#f92a3f</color>
+    <color name="dashboard_1">#A1F480</color>
+    <color name="dashboard_2">#A3F948</color>
+    <color name="dashboard_3">#9FF246</color>
+    <color name="dashboard_4">#69C046</color>
+    <color name="dashboard_5">#48D26B</color>
+    <color name="dashboard_6">#BCE24A</color>
+    <color name="login">#A1F480</color>
+    <color name="grey">#828382</color>
+</resources>
