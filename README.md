@@ -1,4 +1,5 @@
 # PropertyManagementApp
-Final Year Project - Property Management Android Application
+Final Year Project 
+- Property Management Android Application
 - Java
 - Firebase
