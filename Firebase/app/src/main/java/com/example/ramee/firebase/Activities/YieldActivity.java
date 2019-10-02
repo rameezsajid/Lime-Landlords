@@ -43,6 +43,7 @@ public class YieldActivity extends AppCompatActivity {
 
     }
 
+    // this method calculates yield
     private void yieldSum(){
         EditText sum3 = (EditText)findViewById(R.id.editTextPropertyPrice);
         EditText sum4 = (EditText)findViewById(R.id.editTextRental);
