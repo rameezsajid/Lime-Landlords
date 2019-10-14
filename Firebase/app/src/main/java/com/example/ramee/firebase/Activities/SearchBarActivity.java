@@ -125,6 +125,7 @@ public class SearchBarActivity extends AppCompatActivity {
         return true;
     }
 
+    //for menu options
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
