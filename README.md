@@ -3,8 +3,9 @@
 - Property Management Android Application
 - Built Using Java
 - Firebase for Database and User Login and Registeration
+- Firebase Email Verifaction implemented
 - XML
-- Wireframes created when designing
+- Wireframes Created when Designing
 
 # Firebase Usage
 Ensure you have a Firebase account and proceed to add your own **google services** file into the **app** folder in your Android Studio project, with out this Firebase will not be able to do login authentication.
