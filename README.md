@@ -1,6 +1,12 @@
 # Lime Landlords
-Final Year Project 
+- Final Year Project 
 - Property Management Android Application
-- Java
-- Firebase
+- Built Using Java
+- Firebase for Database and User Login and Registeration
 - XML
+- Wireframes created when designing
+
+# Firebase Usage
+Ensure you have a Firebase account and proceed to add your own **google services** file into the **app** folder in your Android Studio project, with out this Firebase will not be able to do login authentication.
+
+- All Firebase dependencies must be the same version.
