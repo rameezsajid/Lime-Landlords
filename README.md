@@ -4,7 +4,7 @@
 - Property Management Android Application
 - Built Using Java
 - Firebase for Database and User Login and Registeration
-- Firebase Email Verification implemented
+- Firebase Email Verification
 - XML
 - Wireframes Created when Designing
 
