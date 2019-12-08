@@ -8,7 +8,6 @@
 - Firebase Database - JSON
 - Firebase Email Verification
 - XML
-- Wireframes Created when Designing
 - MVC Design Pattern used
 
 # About the Application
