@@ -11,7 +11,7 @@
 - MVC Design Pattern used
 
 # About the Application
-Lime Landlords is a property management application that allows users to be able to add, modify and delete property data as well as communicate with other users via the Lime Community feature.
+Lime Landlords is a property management app that allows users to be able to add, modify and delete property data as well as communicate with other users via the Lime Community feature.
 Addiionally users can calculate their property yield and search for average house prices in various locations.
 
 # Firebase Usage
