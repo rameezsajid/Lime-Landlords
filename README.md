@@ -7,7 +7,6 @@
 - Firebase User Login and Registeration Authentication
 - Firebase Database - JSON
 - Firebase Email Verification
-- XML
 - MVC Design Pattern used
 
 # About the Application
