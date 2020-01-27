@@ -1,6 +1,6 @@
 # Lime Landlords - Android
 - Final Year Project 
-- Android Studio IDE
+- Android Studio
 - Android SDK
 - Property Management Android Application
 - Built Using Java
