@@ -2,7 +2,6 @@
 - Android Application
 - Final Year Project 
 - Android Studio IDE
-- Android SDK
 - Property Management Android Application
 - Built Using Java
 - Firebase User Login and Registeration Authentication
