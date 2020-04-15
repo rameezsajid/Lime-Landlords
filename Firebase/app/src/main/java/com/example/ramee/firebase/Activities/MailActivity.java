@@ -23,7 +23,7 @@ public class MailActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mail);
 
-        getSupportActionBar().setTitle("Compose Mail");
+        getSupportActionBar().setTitle("Create Mail");
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
