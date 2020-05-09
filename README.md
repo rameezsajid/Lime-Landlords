@@ -1,7 +1,7 @@
 # Lime Landlords
 - Android Application
 - Final Year Project 
-- Android Studio
+- Android Studio IDE
 - Property Management Android Application
 - Built Using Java
 - Firebase User Login and Registeration Authentication
