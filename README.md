@@ -1,5 +1,4 @@
 # Lime Landlords
-- Android Application
 - Final Year Project 
 - Android Studio IDE
 - Android SDK
