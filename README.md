@@ -7,7 +7,7 @@
 - Firebase User Login and Registeration Authentication
 - Firebase Database - JSON
 - Firebase Email Verification
-- MVC Design Pattern
+- MVC Design Pattern Used
 
 # About the Application
 Lime Landlords is a property management app that allows users to be able to add, modify and delete property data as well as communicate with other users via the Lime Community feature.
